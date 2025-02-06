@@ -1,0 +1,384 @@
+{
+  "predictions": [
+    {
+      "x": 1666.5,
+      "y": 980.5,
+      "width": 131,
+      "height": 211,
+      "confidence": 0.878,
+      "class": "white-pawn",
+      "class_id": 9,
+      "detection_id": "fe8612d6-7b63-42ad-a706-024235e9b4c5"
+    },
+    {
+      "x": 1492.5,
+      "y": 1085,
+      "width": 165,
+      "height": 322,
+      "confidence": 0.871,
+      "class": "white-king",
+      "class_id": 7,
+      "detection_id": "47cd5ff4-0e3b-4f3c-999f-e1dbbb2ba037"
+    },
+    {
+      "x": 1461.5,
+      "y": 849.5,
+      "width": 113,
+      "height": 199,
+      "confidence": 0.853,
+      "class": "white-pawn",
+      "class_id": 9,
+      "detection_id": "b1480d09-863e-4a5e-b20a-e9a7c6c6e26f"
+    },
+    {
+      "x": 364.5,
+      "y": 1107,
+      "width": 157,
+      "height": 252,
+      "confidence": 0.846,
+      "class": "white-rook",
+      "class_id": 11,
+      "detection_id": "e6b5f941-59fc-4f92-84f9-ded1f9d10950"
+    },
+    {
+      "x": 750.5,
+      "y": 978.5,
+      "width": 139,
+      "height": 225,
+      "confidence": 0.828,
+      "class": "white-queen",
+      "class_id": 10,
+      "detection_id": "54ff35c2-1d15-41cf-827a-afcb6813de76"
+    },
+    {
+      "x": 1433.5,
+      "y": 202.5,
+      "width": 141,
+      "height": 295,
+      "confidence": 0.825,
+      "class": "white-king",
+      "class_id": 7,
+      "detection_id": "76a895e5-290c-4a83-b375-929afd1b990d"
+    },
+    {
+      "x": 383.5,
+      "y": 982.5,
+      "width": 117,
+      "height": 193,
+      "confidence": 0.819,
+      "class": "white-pawn",
+      "class_id": 9,
+      "detection_id": "4cfb5537-06bf-4534-b9e4-01b3aa3cbe09"
+    },
+    {
+      "x": 748.5,
+      "y": 826.5,
+      "width": 161,
+      "height": 255,
+      "confidence": 0.819,
+      "class": "white-knight",
+      "class_id": 8,
+      "detection_id": "aeb6588d-4708-4918-8f48-daf431fbc088"
+    },
+    {
+      "x": 946,
+      "y": 221,
+      "width": 152,
+      "height": 286,
+      "confidence": 0.788,
+      "class": "white-king",
+      "class_id": 7,
+      "detection_id": "cb59f955-00e6-46f4-b786-2dd1c4d51c21"
+    },
+    {
+      "x": 1288.5,
+      "y": 823.5,
+      "width": 153,
+      "height": 273,
+      "confidence": 0.784,
+      "class": "white-knight",
+      "class_id": 8,
+      "detection_id": "74a19601-383e-44fa-aaa5-2b7b6ceed9e4"
+    },
+    {
+      "x": 762,
+      "y": 460,
+      "width": 168,
+      "height": 252,
+      "confidence": 0.758,
+      "class": "white-knight",
+      "class_id": 8,
+      "detection_id": "4d8e5c31-44f9-4819-a8a6-b2040939e24a"
+    },
+    {
+      "x": 1438.5,
+      "y": 376,
+      "width": 139,
+      "height": 198,
+      "confidence": 0.741,
+      "class": "black-rook",
+      "class_id": 5,
+      "detection_id": "f49c7184-570c-4192-96fe-173d7cad5a5c"
+    },
+    {
+      "x": 929.5,
+      "y": 860,
+      "width": 131,
+      "height": 198,
+      "confidence": 0.712,
+      "class": "white-pawn",
+      "class_id": 9,
+      "detection_id": "2756e340-0a5f-4c20-b523-3565b05628ea"
+    },
+    {
+      "x": 927,
+      "y": 1090.5,
+      "width": 164,
+      "height": 297,
+      "confidence": 0.711,
+      "class": "white-queen",
+      "class_id": 10,
+      "detection_id": "8afb4bf6-ce6d-4b4f-82b7-92134b584ed1"
+    },
+    {
+      "x": 1301,
+      "y": 1109,
+      "width": 150,
+      "height": 250,
+      "confidence": 0.689,
+      "class": "white-rook",
+      "class_id": 11,
+      "detection_id": "328d5972-37fe-4d09-a6f9-5584e92264d8"
+    },
+    {
+      "x": 1295.5,
+      "y": 985,
+      "width": 119,
+      "height": 188,
+      "confidence": 0.685,
+      "class": "white-pawn",
+      "class_id": 9,
+      "detection_id": "cc00e650-1783-439c-8aa3-736aa9a5f496"
+    },
+    {
+      "x": 925,
+      "y": 615,
+      "width": 126,
+      "height": 206,
+      "confidence": 0.685,
+      "class": "white-queen",
+      "class_id": 10,
+      "detection_id": "8f504800-23aa-4d88-abf2-1edc7a596c0f"
+    },
+    {
+      "x": 779.5,
+      "y": 353,
+      "width": 119,
+      "height": 174,
+      "confidence": 0.672,
+      "class": "black-pawn",
+      "class_id": 3,
+      "detection_id": "0c345ae9-ffde-4322-8ac1-7a845eafc28b"
+    },
+    {
+      "x": 1261.5,
+      "y": 242,
+      "width": 123,
+      "height": 222,
+      "confidence": 0.645,
+      "class": "white-rook",
+      "class_id": 11,
+      "detection_id": "6d3063a4-dfb9-428b-b556-5bff6dc5ecbb"
+    },
+    {
+      "x": 605,
+      "y": 333.5,
+      "width": 132,
+      "height": 257,
+      "confidence": 0.598,
+      "class": "black-king",
+      "class_id": 1,
+      "detection_id": "797a9cb3-b17f-492d-899b-b2d0b2d5a0a5"
+    },
+    {
+      "x": 576,
+      "y": 848,
+      "width": 130,
+      "height": 196,
+      "confidence": 0.589,
+      "class": "white-knight",
+      "class_id": 8,
+      "detection_id": "918125b9-da12-4d0f-a728-c677bed326e8"
+    },
+    {
+      "x": 577.5,
+      "y": 850,
+      "width": 125,
+      "height": 200,
+      "confidence": 0.577,
+      "class": "white-pawn",
+      "class_id": 9,
+      "detection_id": "f26cc0e4-d46c-4391-8e0a-0ba91d5e5d8b"
+    },
+    {
+      "x": 438,
+      "y": 374,
+      "width": 124,
+      "height": 198,
+      "confidence": 0.574,
+      "class": "black-rook",
+      "class_id": 5,
+      "detection_id": "d34e5397-c61a-48c2-b88c-a681d2f305cc"
+    },
+    {
+      "x": 1090,
+      "y": 720,
+      "width": 130,
+      "height": 200,
+      "confidence": 0.523,
+      "class": "white-rook",
+      "class_id": 11,
+      "detection_id": "3a47f218-63d4-4ab6-ae1f-5c93ec696c5f"
+    },
+    {
+      "x": 559,
+      "y": 961.5,
+      "width": 148,
+      "height": 245,
+      "confidence": 0.517,
+      "class": "white-king",
+      "class_id": 7,
+      "detection_id": "e26f6f27-2ddd-4d72-a6fa-b6cc6adc9920"
+    },
+    {
+      "x": 928,
+      "y": 1092.5,
+      "width": 168,
+      "height": 301,
+      "confidence": 0.514,
+      "class": "white-king",
+      "class_id": 7,
+      "detection_id": "d66b489e-b3ba-4588-95d0-6f5a5122504f"
+    },
+    {
+      "x": 1441,
+      "y": 483,
+      "width": 132,
+      "height": 198,
+      "confidence": 0.509,
+      "class": "black-queen",
+      "class_id": 4,
+      "detection_id": "50da94a5-b14b-44cf-96eb-0d85a00fe776"
+    },
+    {
+      "x": 1091.5,
+      "y": 720,
+      "width": 133,
+      "height": 202,
+      "confidence": 0.498,
+      "class": "white-pawn",
+      "class_id": 9,
+      "detection_id": "eff1190d-fc41-44e8-9318-2e6ab93d00c6"
+    },
+    {
+      "x": 923.5,
+      "y": 615,
+      "width": 129,
+      "height": 206,
+      "confidence": 0.473,
+      "class": "black-queen",
+      "class_id": 4,
+      "detection_id": "2e204113-dc74-4d5a-99c5-4fe5e26c61c7"
+    },
+    {
+      "x": 443.5,
+      "y": 239.5,
+      "width": 135,
+      "height": 231,
+      "confidence": 0.433,
+      "class": "white-king",
+      "class_id": 7,
+      "detection_id": "3e415402-59f5-4340-bfe3-3cc2b920acf0"
+    },
+    {
+      "x": 948.5,
+      "y": 222.5,
+      "width": 145,
+      "height": 275,
+      "confidence": 0.41,
+      "class": "white-queen",
+      "class_id": 10,
+      "detection_id": "d8a8bca2-97b0-4e4e-991f-8452714b4e93"
+    },
+    {
+      "x": 1280.5,
+      "y": 470,
+      "width": 151,
+      "height": 262,
+      "confidence": 0.39,
+      "class": "white-king",
+      "class_id": 7,
+      "detection_id": "c599207c-36c7-43f7-8d05-2729fbc20344"
+    },
+    {
+      "x": 1630,
+      "y": 368,
+      "width": 128,
+      "height": 196,
+      "confidence": 0.384,
+      "class": "black-rook",
+      "class_id": 5,
+      "detection_id": "faf42a82-6e58-43fa-80c7-d1de200ebedf"
+    },
+    {
+      "x": 560,
+      "y": 953.5,
+      "width": 146,
+      "height": 273,
+      "confidence": 0.375,
+      "class": "white-queen",
+      "class_id": 10,
+      "detection_id": "9a718164-69dc-46af-9ef8-406cb8707159"
+    },
+    {
+      "x": 1476,
+      "y": 1003.5,
+      "width": 144,
+      "height": 175,
+      "confidence": 0.373,
+      "class": "white-bishop",
+      "class_id": 6,
+      "detection_id": "96509dca-c330-434a-9575-a8d7fe325574"
+    },
+    {
+      "x": 1280,
+      "y": 467,
+      "width": 152,
+      "height": 268,
+      "confidence": 0.358,
+      "class": "white-knight",
+      "class_id": 8,
+      "detection_id": "be4b17e0-a9fd-4898-a71c-8b25bd2e261a"
+    },
+    {
+      "x": 604,
+      "y": 452.5,
+      "width": 144,
+      "height": 273,
+      "confidence": 0.322,
+      "class": "white-king",
+      "class_id": 7,
+      "detection_id": "d2a83d9b-742d-4282-ab32-7299d244224a"
+    },
+    {
+      "x": 1666.5,
+      "y": 978,
+      "width": 131,
+      "height": 214,
+      "confidence": 0.317,
+      "class": "white-rook",
+      "class_id": 11,
+      "detection_id": "9cfd8616-2772-428a-8669-11d1d495923c"
+    }
+  ]
+}
