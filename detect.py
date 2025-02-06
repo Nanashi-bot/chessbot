@@ -1,42 +1,31 @@
-from inference import get_model
-import supervision as sv
-import cv2
+from roboflow import Roboflow
 from dotenv import load_dotenv
 import os
+import cv2
 
-# Load environment variables from .env file
+# Load the .env file
 load_dotenv()
 
-# Access the ROBOFLOW_API_KEY environment variable
+# Get the API key from the environment variables
 api_key = os.getenv("ROBOFLOW_API_KEY")
-print(api_key)  # Verify if the key is loaded correctly
 
+# Initialize Roboflow with the API key
+rf = Roboflow(api_key=api_key)
 
+# Load the project and model (model endpoint: "chess-piece-detection-5ipnt/3")
+project = rf.workspace().project("chess-piece-detection-5ipnt")
+model = project.version(3).model
 
-# define the image url to use for inference
-image_file = "chess.jpeg"
-image = cv2.imread(image_file)
+# Define the image file for inference
+image_file = "chess.jpg"
 
-# load a pre-trained yolov8n model
-model = get_model(model_id="chess-piece-detection-5ipnt/3")
+# Run inference with confidence and overlap thresholds
+result = model.predict(image_file, confidence=40, overlap=30)
 
-# run inference on our chosen image, image can be a url, a numpy array, a PIL image, etc.
-results = model.infer(image)[0]
+# Print the result in JSON format
+print(result.json()['predictions'])
 
-# load the results into the supervision Detections api
-detections = sv.Detections.from_inference(results)
-
-# create supervision annotators
-bounding_box_annotator = sv.BoxAnnotator()
-label_annotator = sv.LabelAnnotator()
-
-# annotate the image with our inference results
-annotated_image = bounding_box_annotator.annotate(
-    scene=image, detections=detections)
-annotated_image = label_annotator.annotate(
-    scene=annotated_image, detections=detections)
-
-# display the image
-sv.plot_image(annotated_image)
+# Optionally, save the prediction image
+#result.save("prediction.jpg")
 
 
